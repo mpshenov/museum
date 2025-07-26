@@ -1,44 +1,310 @@
-h1, h2, h3 {
-    font: Forum, sans-serif;
-}
-
-.Roboto22 {
-    font-family: Roboto;
-    font: 22px;
-
-}
-
-header, footer {
-    background-color: black;
-    color:white;
-}
-
-h1 {
-    width: 199px;
-    height: 33px;
-    position: absolute;
-    top: 59px;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    width: 1920px;
-    padding: 0 100px;
-    margin: 0 auto;
-  }
+  width: 1920px;
+  padding: 0;
+  margin: 0 auto;
+}
 
-.menu {
+header {
+  background-color: black;
+  color: white;
+  height: 150px;
+  left: 0px;
+  width: 1920px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-container {
+  position: relative;
+  display: flex; 
+  width: 1440px;
+  height: 150px;
+  left: 240px;
+}
+
+.logo-top {
+  width: 199px;
+  height: 33px;
+  top: 59px;
+  position: absolute;
+}
+
+#Louvre {
+  position: absolute;
+  width: 199px;
+  height: 33px;
+  top: 35px;
+  left: 80px;
+}
+
+.menu-top {
+  position: absolute;
   list-style: none;        
   display: flex;  
   justify-content: flex-end;         
   gap: 30px;               
   padding: 0;
   margin: 0;
+  width: 775px;
+  height: 26px;
+  top: 62px;
+  left: 665px;
 }
 
-.Welcome {
-    display: flex;
+nav .menu-top ul {
+  list-style: none;
+  display: flex;
+  gap: 55px;
 }
 
-html {
-  scroll-behavior: smooth;
+nav a {
+  color: white;
+  text-decoration: none;
 }
+
+main {
+  padding: 0;
+  margin: 0;
+}
+
+.Welcome, .Explore, .Gallery {
+  width: 1920px;
+  background-color: black;
+}
+
+.welcome-container {
+  display: flex;
+  position: relative;
+  background-color: black;
+  color: white;
+  left: 240px;
+  width: 1440px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Welcome-text button {
+  background-color: #710707;
+  width: 360px;
+  height: 75px;
+}
+
+.Visiting, .Video, .Tickets, .Contacts {
+  width: 1920px;
+  background-color: white;
+}
+
+.Visiting h2, .Explore h2, .Video h2, .Gallery h2, .Tickets h2, .Contacts h2 {
+  position: relative;
+  left: 240px;
+  width: 1440px;
+  padding-top: 50px;
+  padding-bottom: 40px; 
+  margin: 0px;
+}
+
+.Rectangle-long {
+  background: #710707;
+  position: relative;
+  width: 1440px;
+  height: 3px;
+  left: 240px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.Rectangle-short {
+  background: #710707;
+  width: 300;
+  height: 2px;
+}
+
+.visiting-container1 {
+  display: flex;
+  position: relative;
+  background-color: white;
+  color: black;
+  left: 240px;
+  width: 1440px;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-between;
+}
+.visiting-container2 {
+  display: flex;
+  position: relative;
+  background-color: white;
+  color: black;
+  left: 240px;
+  width: 1400px;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-between;
+  height: auto;
+}
+
+.Explore {
+  background-color: black;
+}
+
+.explore-container {
+  display: flex;
+  left: 240px;
+  width: 1440px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+.video-container3 {
+  display: flex;
+  justify-content: center;
+}
+
+.video-container, .gallery-container, .tickets-container, .contacts-container {
+  left: 240px;
+  width: 1440px;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+
+
+.video-container1 {
+  position: relative;
+  display: flex; 
+  width: 1440px;
+  height: 150px;
+}
+
+.video-container1 span {
+  width: 720px;
+  height: 90px;
+  position: relative;
+  padding-top: 70px;
+}
+
+.video-container2 {
+  position: relative;
+  display: flex; 
+  width: 1440px;
+  height: auto;
+  left: 240px;
+}
+
+.tickets-container {
+  display: flex;
+}
+
+.contacts-container {
+  display: flex;
+}
+
+.map {
+  position: relative;
+  width: 960px;
+  height: 620px;
+  left: 240px;
+}
+
+.contact-info {
+  list-style-type: none;
+}
+
+
+.footer-container1 {
+  position: relative;
+  display: flex; 
+  width: 1440px;
+  height: 150px;
+  left: 240px;
+}
+
+.footer-container2 {
+  position: relative;
+  display: flex; 
+  justify-content: space-between;
+  width: 1440px;
+  height: 150px;
+  left: 240px;
+}
+
+.footer-general {
+  display:flex;
+  gap: 200px;
+}
+
+.logo-bottom-general {
+  display: flex;
+}
+
+.logo-bottom {
+  left:240px;
+  position: relative;
+}
+
+#Louvre-bottom {
+  left:240px;
+  position: relative;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.Rectangle-long-bottom {
+  width: 1920px;
+  height: 2px;
+  background-color: white;
+  position: relative;
+  visibility: auto;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.Font-family-roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+.Font-family-forum {
+  font-family: "Forum", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.Color-white {
+  color: #FFFFFF;
+}
+
+.Color-black {
+  color: #000000;
+}
+
+.Color-gold {
+  color: #9D8665;
+}
+
+.Font-size-80 {
+  font-size: 80px;
+}
+
+.Font-size-28 {
+  font-size: 28px;
+}
+
+.Font-size-22 {
+  font-size: 22px;
+}
+
+
+
